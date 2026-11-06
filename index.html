@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Static demonstration of a radio transmission monitoring dashboard.">
+  <title>Radio Transmission Monitor — Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./radio-dashboard.css">
+  <style>
+    .demo-banner{max-width:860px;margin:0 auto 18px;padding:12px 16px;border:1px solid #ffbf47;background:#241b08;color:#ffe2a1;text-align:center;font-weight:700;letter-spacing:.08em}
+    .demo-back{display:inline-block;margin-top:18px;color:var(--neon-green);text-decoration:none}
+    .demo-back:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <div class="hud-grid" aria-hidden="true"></div>
+    <div class="demo-banner" role="note">DEMO MODE · FICTIONAL SAMPLE DATA · NOT CONNECTED TO A LIVE RADIO</div>
+    <header class="hero-panel">
+      <p class="hero-icons" aria-hidden="true">🌐 📡 📶</p>
+      <h1>Radio Transmission Monitor</h1>
+      <p class="hero-subtitle">Static dashboard demonstration</p>
+    </header>
+    <main class="dashboard-layout">
+      <section class="panel panel-stats" aria-labelledby="stats-title">
+        <div class="panel-topline">
+          <h2 id="stats-title">MONITORING OVERVIEW</h2>
+          <span class="terminal-cursor" aria-hidden="true"></span>
+        </div>
+        <div class="console-table" role="table" aria-label="Fictional sample transmission metrics">
+          <div class="console-head" role="row"><span role="columnheader">METRIC</span><span role="columnheader">SAMPLE VALUE</span></div>
+          <div class="console-row" role="row"><span class="metric-label" role="cell">Listeners</span><strong class="metric-value" id="listeners-value" role="cell">--</strong></div>
+          <div class="console-row" role="row"><span class="metric-label" role="cell">Peak audience</span><strong class="metric-value" id="peak-value" role="cell">--</strong></div>
+          <div class="console-row" role="row"><span class="metric-label" role="cell">Bitrate</span><strong class="metric-value" id="bitrate-value" role="cell">--</strong></div>
+          <div class="console-row console-row-song" role="row"><span class="metric-label" role="cell">Current track</span><strong class="metric-value metric-value-song" id="song-value" role="cell">Loading sample…</strong></div>
+          <div class="console-row" role="row"><span class="metric-label" role="cell">Sample status</span><strong class="metric-value metric-status" id="status-value" role="cell">DEMO</strong></div>
+        </div>
+        <p class="panel-footnote" id="last-update">Loading fictional sample values…</p>
+        <a class="demo-back" href="https://github.com/Jeremy-MegaJS/monitoreo-transmission_demo">View source on GitHub</a>
+      </section>
+      <section class="panel panel-contact">
+        <div class="panel-topline"><h2>ABOUT THIS DEMO</h2></div>
+        <div class="contact-card">
+          <p>This portfolio preview demonstrates the dashboard interface only.</p>
+          <p>No live radio server is contacted. Values rotate between predefined fictional snapshots to illustrate how the dashboard can update.</p>
+          <p>Live monitoring and production infrastructure are not exposed through this page.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./demo.js"></script>
+</body>
+</html>
