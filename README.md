@@ -5,7 +5,7 @@
 ## English
 
 ### Overview
-A public, static portfolio demonstration of a radio transmission monitoring dashboard. It is paired with the Radio FE 990 AM web player and illustrates how a monitoring interface can present operational signals from a streaming environment.
+A public, static portfolio demonstration of a radio transmission monitoring dashboard. It includes an embedded player for the same public Radio FE 990 AM audio stream. The dashboard metrics remain fictional and are not connected to the production monitoring system.
 
 ### What this repository actually does
 - Renders a responsive terminal-inspired dashboard.
@@ -15,7 +15,7 @@ A public, static portfolio demonstration of a radio transmission monitoring dash
 - Does not collect real audience analytics or represent sample numbers as production telemetry.
 
 ### Related audio player
-The companion player uses the same public audio stream configured for Radio FE 990 AM. The player and this dashboard are separate static demonstrations; the dashboard metrics remain simulated and are not derived from the actual audio stream.
+The dashboard embeds the same public audio stream configured for Radio FE 990 AM. Audio is live; monitoring figures are simulated and independent from the stream.
 
 - Public reference player: https://giovannicastellon.github.io/radiofe990am/
 - Related player source: https://github.com/Jeremy-MegaJS/radiofe990am
@@ -37,7 +37,7 @@ All displayed monitoring values are fictional. No real listener count, stream bi
 ## Español
 
 ### Descripción
-Demostración pública y estática para portafolio de un panel de monitoreo de transmisión de radio. Está relacionada con el reproductor web de Radio FE 990 AM y muestra cómo una interfaz de monitoreo puede presentar señales operativas de un entorno de streaming.
+Demostración pública y estática para portafolio de un panel de monitoreo de transmisión de radio. Incluye un reproductor integrado con la misma señal pública de audio de Radio FE 990 AM. Las métricas del panel son ficticias y no están conectadas al monitoreo de producción.
 
 ### Lo que realmente hace este repositorio
 - Presenta un panel adaptable inspirado en interfaces de terminal.
@@ -47,7 +47,7 @@ Demostración pública y estática para portafolio de un panel de monitoreo de t
 - No recopila estadísticas reales de audiencia ni presenta los valores de ejemplo como telemetría de producción.
 
 ### Reproductor de audio relacionado
-El reproductor complementario utiliza la misma señal pública configurada para Radio FE 990 AM. El reproductor y este panel son demostraciones estáticas independientes; las métricas del panel siguen siendo simuladas y no se obtienen del audio real.
+El panel integra la misma señal pública de audio configurada para Radio FE 990 AM. El audio es real y en vivo; las cifras de monitoreo son simuladas e independientes de la señal.
 
 - Reproductor público de referencia: https://giovannicastellon.github.io/radiofe990am/
 - Código del reproductor relacionado: https://github.com/Jeremy-MegaJS/radiofe990am
